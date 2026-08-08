@@ -13,7 +13,6 @@ test('incluye la estructura esencial de la MVP', () => {
     assert.match(html, new RegExp(`id=["']${sectionId}["']`), `Falta la sección ${sectionId}`);
   }
 });
-
 test('mantiene la vista previa fuera de los buscadores', () => {
   assert.match(html, /name="robots" content="noindex, nofollow"/);
 });
@@ -41,4 +40,3 @@ test('todos los recursos locales enlazados existen', async () => {
     await assert.doesNotReject(access(assetPath), `No existe el recurso ${reference}`);
   }
 });
-

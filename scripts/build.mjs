@@ -16,4 +16,3 @@ for (const entry of entries) {
 }
 
 console.log(`Sitio generado en ${path.relative(projectRoot, outputDirectory)}/`);
-
