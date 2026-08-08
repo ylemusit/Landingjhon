@@ -65,9 +65,11 @@ Nunca afirmes que algo ha sido probado o verificado si realmente no se ha ejecut
 
 ## Documentación
 
-`docs/CURRENT_STATE.md` representa el estado actual del proyecto.
+Si existe `docs/CURRENT_STATE.md`, úsalo como referencia del estado actual.
 
-Actualízalo únicamente cuando una tarea cambie materialmente:
+Si el proyecto ya dispone de otra fuente central vigente para estado, alcance o decisiones, respétala y actualízala en lugar de crear documentación duplicada.
+
+Actualiza la fuente de estado únicamente cuando una tarea cambie materialmente:
 
 - funcionalidades disponibles;
 - trabajo en curso;
