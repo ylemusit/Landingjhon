@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MVP de Altifirme: reformas, mantenimiento y trabajos verticales para particulares, comunidades y empresas en el País Vasco.">
+    <meta name="description" content="MVP de Altifirme: reformas, mantenimiento y trabajos verticales para particulares, comunidades y empresas.">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="theme-color" content="#17231f">
+    <meta name="theme-color" content="#111a17">
     <meta property="og:title" content="Altifirme — Reformas, mantenimiento y trabajos verticales">
-    <meta property="og:description" content="Experiencia y soluciones adaptadas a cada proyecto en el País Vasco.">
+    <meta property="og:description" content="Experiencia, planificación y soluciones adaptadas a cada proyecto.">
     <meta property="og:type" content="website">
     <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/illustrative/hero-renovation-v2.webp" as="image" type="image/webp">
     <link rel="stylesheet" href="css/styles.css">
     <title>Altifirme | Reformas y trabajos verticales</title>
   </head>
@@ -20,13 +21,24 @@
       <div class="container preview-bar__inner">
         <span class="preview-dot" aria-hidden="true"></span>
         <strong>MVP de revisión</strong>
-        <span>El formulario no envía ni almacena datos.</span>
+        <span>La dirección, las redes y el formulario todavía son demostrativos.</span>
       </div>
     </div>
 
-    <header class="site-header" data-header>
+    <div class="contact-strip">
+      <div class="container contact-strip__inner">
+        <p><span aria-hidden="true">●</span> Atención directa y valoración previa</p>
+        <div class="contact-strip__social" aria-label="Redes sociales en preparación">
+          <span>Instagram</span>
+          <span>Facebook</span>
+          <span>LinkedIn</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header site-header--dark" data-header>
       <div class="container nav-wrap">
-        <a class="brand" href="#inicio" aria-label="Altifirme, volver al inicio">
+        <a class="brand brand--dark" href="#inicio" aria-label="Altifirme, volver al inicio">
           <span class="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 40 40" role="img">
               <path d="M4 31 17.5 8l5.2 8.8L27.8 9 36 31h-8.2l-5.5-9.6-4.9 7.4-3.1-5.3L10 31H4Z"/>
@@ -35,71 +47,82 @@
           <span class="brand-name">Altifirme</span>
         </a>
 
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+        <button class="nav-toggle nav-toggle--dark" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
           <span class="sr-only">Abrir menú</span>
           <span></span><span></span><span></span>
         </button>
 
-        <nav class="primary-nav" id="primary-navigation" aria-label="Navegación principal" data-navigation>
+        <nav class="primary-nav primary-nav--dark" id="primary-navigation" aria-label="Navegación principal" data-navigation>
           <a href="#servicios">Servicios</a>
           <a href="#metodo">Cómo trabajamos</a>
           <a href="#proyectos">Proyectos</a>
-          <a href="#cobertura">Cobertura</a>
-          <a class="button button--small" href="#contacto">Solicitar valoración</a>
+          <a href="#redes">Redes</a>
+          <a class="button button--small button--outline" href="#contacto">Solicitar valoración</a>
         </nav>
       </div>
     </header>
 
     <main id="contenido">
-      <section class="hero" id="inicio">
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="container hero__layout">
-          <div class="hero__content">
-            <p class="eyebrow"><span></span> Base en el País Vasco</p>
+      <section class="hero-v2" id="inicio">
+        <img class="hero-v2__image" src="assets/illustrative/hero-renovation-v2.webp" width="1536" height="1024" alt="Imagen ilustrativa de una intervención de reforma con andamios, herramientas y equipos de acceso vertical" fetchpriority="high">
+        <div class="hero-v2__veil" aria-hidden="true"></div>
+        <div class="hero-v2__blueprint" aria-hidden="true"></div>
+
+        <div class="container hero-v2__layout">
+          <div class="hero-v2__content">
+            <p class="eyebrow eyebrow--light"><span></span> Reformas · mantenimiento · altura</p>
             <h1>Trabajo bien planteado. <em>Resultado firme.</em></h1>
-            <p class="hero__lead">Reformas, mantenimiento y trabajos verticales para viviendas, comunidades y empresas. Cada proyecto se valora según su alcance, acceso y necesidades reales.</p>
+            <p class="hero-v2__lead">Soluciones para viviendas, comunidades y empresas. Estudiamos el acceso, los materiales y el equipo necesario antes de ejecutar cada intervención.</p>
             <div class="hero__actions">
-              <a class="button" href="#contacto">Solicitar valoración <span aria-hidden="true">→</span></a>
-              <a class="text-link" href="#proyectos">Ver trabajos <span aria-hidden="true">↓</span></a>
+              <a class="button button--accent" href="#contacto">Solicitar valoración <span aria-hidden="true">→</span></a>
+              <a class="text-link text-link--light" href="#servicios">Descubrir servicios <span aria-hidden="true">↓</span></a>
             </div>
-            <ul class="hero__proof" aria-label="Puntos principales">
-              <li><strong>15+</strong><span>años de experiencia</span></li>
-              <li><strong>3</strong><span>sectores de experiencia</span></li>
-              <li><strong>1:1</strong><span>atención directa</span></li>
-            </ul>
           </div>
 
-          <aside class="hero-card" aria-label="Principios de trabajo">
-            <div class="hero-card__top">
-              <span>01</span>
-              <span>Valoración previa</span>
-            </div>
-            <div class="hero-card__shape" aria-hidden="true">
-              <span class="shape shape--one"></span>
-              <span class="shape shape--two"></span>
-              <span class="shape shape--three"></span>
-              <svg viewBox="0 0 240 190">
-                <path d="M18 164 88 43l27 45 28-43 79 119"/>
-                <path d="m68 164 46-76 45 76"/>
-              </svg>
-            </div>
-            <div class="hero-card__bottom">
-              <p>Un proyecto claro empieza por entender bien el trabajo.</p>
-              <span>Alcance · materiales · equipo · condiciones</span>
-            </div>
+          <aside class="hero-v2__panel" aria-label="Principios de trabajo">
+            <div class="hero-v2__panel-head"><span>01</span><span>Antes de empezar</span></div>
+            <p>Una propuesta clara reduce incertidumbre y evita decisiones improvisadas durante el trabajo.</p>
+            <ul>
+              <li>Alcance definido</li>
+              <li>Materiales acordados</li>
+              <li>Equipo dimensionado</li>
+            </ul>
           </aside>
+
+          <p class="hero-v2__disclaimer">Imagen ilustrativa generada para esta MVP.</p>
+        </div>
+      </section>
+
+      <section class="proof-ribbon" aria-label="Datos principales">
+        <div class="container proof-ribbon__grid">
+          <div><strong>15+</strong><span>años de experiencia profesional</span></div>
+          <div><strong>3</strong><span>sectores: industria, madera y construcción</span></div>
+          <div><strong>1:1</strong><span>atención directa desde la primera consulta</span></div>
+          <div><strong>360°</strong><span>valoración del alcance y las condiciones</span></div>
         </div>
       </section>
 
       <section class="intro section">
-        <div class="container intro__layout">
-          <div>
+        <div class="container intro-v2__layout">
+          <div class="intro-v2__heading">
             <p class="section-label">Experiencia adaptable</p>
-            <h2>El equipo adecuado para cada intervención</h2>
+            <h2>El oficio, la planificación y el equipo adecuado</h2>
           </div>
-          <div class="intro__copy">
-            <p>Jhon Adolfo Suárez aporta más de 15 años de experiencia en los sectores industrial, maderero y de la construcción.</p>
+          <div class="intro-v2__content">
+            <p class="intro-v2__lead">Jhon Adolfo Suárez aporta más de 15 años de experiencia en los sectores industrial, maderero y de la construcción.</p>
             <p>Puede intervenir directamente o coordinarse con profesionales especializados según el alcance y las habilitaciones necesarias.</p>
+            <div class="intro-v2__principles" aria-label="Principios de trabajo">
+              <span>Experiencia</span><span>Seguridad</span><span>Claridad</span><span>Evidencia</span>
+            </div>
+          </div>
+          <div class="intro-v2__technical" aria-hidden="true">
+            <svg viewBox="0 0 560 330">
+              <path d="M42 274 168 58l51 86 54-83 146 213"/>
+              <path d="M139 274 219 144l78 130M42 274h388M95 182h312M168 58v216M273 61v213"/>
+              <circle cx="219" cy="144" r="12"/>
+              <circle cx="273" cy="61" r="7"/>
+            </svg>
+            <span>Planificación técnica</span>
           </div>
         </div>
       </section>
@@ -109,13 +132,14 @@
           <div class="section-heading">
             <div>
               <p class="section-label">Servicios</p>
-              <h2>Soluciones dimensionadas al trabajo</h2>
+              <h2>Capacidad para intervenir, criterio para coordinar</h2>
             </div>
             <p>El catálogo definitivo se confirma tras valorar el proyecto y determinar qué perfiles profesionales requiere.</p>
           </div>
 
-          <div class="service-grid">
-            <article class="service-card">
+          <div class="service-grid service-grid--layered">
+            <article class="service-card service-card--image-led">
+              <div class="service-card__texture service-card__texture--one" aria-hidden="true"></div>
               <div class="service-card__number">01</div>
               <div class="service-card__icon" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><path d="M9 39V20l15-11 15 11v19H9Z"/><path d="M19 39V27h10v12M6 42h36"/></svg>
@@ -129,7 +153,8 @@
               </ul>
             </article>
 
-            <article class="service-card">
+            <article class="service-card service-card--raised">
+              <div class="service-card__texture service-card__texture--two" aria-hidden="true"></div>
               <div class="service-card__number">02</div>
               <div class="service-card__icon" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><path d="m29 8 11 11-20 20-12 1 1-12L29 8Z"/><path d="m25 12 11 11M9 28l11 11"/></svg>
@@ -143,7 +168,8 @@
               </ul>
             </article>
 
-            <article class="service-card service-card--accent">
+            <article class="service-card service-card--accent service-card--dark">
+              <div class="service-card__texture service-card__texture--three" aria-hidden="true"></div>
               <div class="service-card__number">03</div>
               <div class="service-card__icon" aria-hidden="true">
                 <svg viewBox="0 0 48 48"><path d="M14 42V12h20v30M9 42h30M19 12V6h10v6"/><path d="M20 20h8M20 27h8M20 34h8"/></svg>
@@ -162,40 +188,25 @@
       </section>
 
       <section class="process section" id="metodo">
-        <div class="container">
-          <div class="section-heading section-heading--compact">
-            <div>
-              <p class="section-label">Cómo trabajamos</p>
-              <h2>Claridad desde el primer contacto</h2>
-            </div>
+        <div class="container process-v2__layout">
+          <div class="process-v2__heading">
+            <p class="section-label">Cómo trabajamos</p>
+            <h2>Un proceso visible de principio a fin</h2>
+            <p>Cada paso deja claro qué necesitamos, qué proponemos y qué se ha acordado.</p>
           </div>
 
-          <ol class="process-list">
-            <li>
-              <span class="process-list__number">01</span>
-              <div><h3>Primera consulta</h3><p>Cuéntanos qué necesitas, dónde se encuentra el trabajo y qué resultado buscas.</p></div>
-            </li>
-            <li>
-              <span class="process-list__number">02</span>
-              <div><h3>Valoración</h3><p>Revisamos el acceso, las condiciones, los materiales y el alcance real.</p></div>
-            </li>
-            <li>
-              <span class="process-list__number">03</span>
-              <div><h3>Propuesta</h3><p>Detallamos trabajos, precio, plazos estimados y condiciones antes de empezar.</p></div>
-            </li>
-            <li>
-              <span class="process-list__number">04</span>
-              <div><h3>Ejecución</h3><p>Dimensionamos el equipo, protegemos la zona y coordinamos la intervención.</p></div>
-            </li>
-            <li>
-              <span class="process-list__number">05</span>
-              <div><h3>Entrega</h3><p>Revisamos contigo el resultado y dejamos documentado el trabajo realizado.</p></div>
-            </li>
+          <ol class="process-list process-list--cards">
+            <li><span class="process-list__number">01</span><div><h3>Primera consulta</h3><p>Cuéntanos qué necesitas y qué resultado buscas.</p></div></li>
+            <li><span class="process-list__number">02</span><div><h3>Valoración</h3><p>Revisamos acceso, condiciones, materiales y alcance.</p></div></li>
+            <li><span class="process-list__number">03</span><div><h3>Propuesta</h3><p>Detallamos trabajos, precio, plazos y condiciones.</p></div></li>
+            <li><span class="process-list__number">04</span><div><h3>Ejecución</h3><p>Dimensionamos el equipo y protegemos la zona.</p></div></li>
+            <li><span class="process-list__number">05</span><div><h3>Entrega</h3><p>Revisamos y documentamos el resultado acordado.</p></div></li>
           </ol>
         </div>
       </section>
 
       <section class="projects section section--dark" id="proyectos">
+        <div class="projects__blueprint" aria-hidden="true"></div>
         <div class="container">
           <div class="section-heading section-heading--light">
             <div>
@@ -205,26 +216,26 @@
             <p>Estas fichas muestran cómo será la galería. Las imágenes se incorporarán únicamente cuando sus derechos y privacidad estén aprobados.</p>
           </div>
 
-          <div class="project-grid">
+          <div class="project-grid project-grid--offset">
             <article class="project-card">
               <div class="project-card__visual project-card__visual--vertical" role="img" aria-label="Marcador gráfico para un futuro proyecto de trabajos verticales">
                 <span class="project-card__status">Imagen pendiente</span>
                 <svg viewBox="0 0 600 400" aria-hidden="true"><path d="M75 350 235 75l67 112 65-103 158 266"/><path d="M172 350 301 187l127 163"/><circle cx="301" cy="187" r="13"/></svg>
               </div>
               <div class="project-card__body">
-                <div><span>Trabajos verticales</span><span>País Vasco</span></div>
+                <div><span>Trabajos verticales</span><span>Ficha 01</span></div>
                 <h3>Intervención en altura</h3>
                 <p>La descripción y las fotografías se publicarán después de confirmar autoría, permisos y alcance real.</p>
               </div>
             </article>
 
-            <article class="project-card">
+            <article class="project-card project-card--lower">
               <div class="project-card__visual project-card__visual--paving" role="img" aria-label="Marcador gráfico para un futuro proyecto de pavimentación exterior">
                 <span class="project-card__status">Imagen pendiente</span>
                 <svg viewBox="0 0 600 400" aria-hidden="true"><path d="m40 340 190-190 330 190M230 150l132-95 198 285M133 247l337 93M183 197l342 143M230 150l330 190M280 114l112 226M338 72l32 268M416 92l-68 248M484 190 326 340"/></svg>
               </div>
               <div class="project-card__body">
-                <div><span>Pavimentación exterior</span><span>País Vasco</span></div>
+                <div><span>Pavimentación exterior</span><span>Ficha 02</span></div>
                 <h3>Preparación y acabado de superficie</h3>
                 <p>Esta ficha se completará con el proceso, materiales y resultado que puedan acreditarse.</p>
               </div>
@@ -241,7 +252,7 @@
               <h2>Un interlocutor, distintos tipos de proyecto</h2>
             </div>
           </div>
-          <div class="audience-grid">
+          <div class="audience-grid audience-grid--cards">
             <article><span>01</span><h3>Viviendas y propietarios</h3><p>Desde una reparación concreta hasta una reforma que requiere coordinar diferentes trabajos.</p></article>
             <article><span>02</span><h3>Comunidades</h3><p>Mantenimiento e intervenciones en zonas comunes, fachadas y accesos complejos.</p></article>
             <article><span>03</span><h3>Empresas y profesionales</h3><p>Apoyo especializado, mantenimiento y refuerzo de equipo según las condiciones del proyecto.</p></article>
@@ -249,36 +260,45 @@
         </div>
       </section>
 
-      <section class="coverage" id="cobertura">
-        <div class="container coverage__layout">
-          <div class="coverage__map" aria-hidden="true">
-            <span class="map-ring map-ring--one"></span>
-            <span class="map-ring map-ring--two"></span>
-            <span class="map-dot"></span>
-            <span class="map-line"></span>
+      <section class="social-section" id="redes">
+        <div class="container social-section__layout">
+          <div class="social-section__heading">
+            <p class="section-label">Redes sociales</p>
+            <h2>El trabajo también se contará paso a paso</h2>
+            <p>Los perfiles se enlazarán cuando existan y estén preparados para publicar contenido real.</p>
           </div>
-          <div class="coverage__content">
-            <p class="section-label">Cobertura</p>
-            <h2>Servicio inicial en el País Vasco</h2>
-            <p>Los proyectos fuera de la zona habitual se estudian individualmente según el desplazamiento, el alcance y la capacidad operativa.</p>
-            <a class="text-link text-link--light" href="#contacto">Consultar un proyecto <span aria-hidden="true">→</span></a>
+          <div class="social-grid" aria-label="Futuros perfiles sociales">
+            <div class="social-card" aria-disabled="true"><span class="social-card__icon">IG</span><div><strong>Instagram</strong><small>Próximamente</small></div></div>
+            <div class="social-card" aria-disabled="true"><span class="social-card__icon">FB</span><div><strong>Facebook</strong><small>Próximamente</small></div></div>
+            <div class="social-card" aria-disabled="true"><span class="social-card__icon">IN</span><div><strong>LinkedIn</strong><small>Próximamente</small></div></div>
+            <div class="social-card" aria-disabled="true"><span class="social-card__icon">YT</span><div><strong>YouTube</strong><small>Próximamente</small></div></div>
           </div>
         </div>
       </section>
 
       <section class="contact section" id="contacto">
-        <div class="container contact__layout">
+        <div class="container contact-v2__layout">
           <div class="contact__intro">
             <p class="section-label">Contacto</p>
             <h2>Cuéntanos qué necesitas</h2>
             <p>Con unos datos básicos podremos entender el proyecto y preparar una primera valoración.</p>
+
+            <div class="address-card">
+              <div class="address-card__icon" aria-hidden="true">⌖</div>
+              <div>
+                <span class="address-card__label">Sede central candidata · Bilbao</span>
+                <address>Alameda de Mazarredo 25, 1.º<br>48009 Bilbao (Bizkaia)</address>
+                <p>Dirección pendiente de contratación y formalización. Todavía no es un domicilio operativo de Altifirme.</p>
+              </div>
+            </div>
+
             <div class="demo-notice">
               <strong>Formulario de demostración</strong>
-              <p>Permite revisar la experiencia, pero no transmite ni almacena la información introducida.</p>
+              <p>Permite revisar la experiencia, pero no envía ni almacena datos.</p>
             </div>
           </div>
 
-          <form class="contact-form" data-demo-form novalidate>
+          <form class="contact-form contact-form--floating" data-demo-form novalidate>
             <div class="form-row">
               <div class="field">
                 <label for="nombre">Nombre <span aria-hidden="true">*</span></label>
@@ -317,7 +337,7 @@
               <textarea id="descripcion" name="descripcion" rows="5" required maxlength="1000" placeholder="Tipo de trabajo, estado actual y resultado que buscas"></textarea>
               <span class="field__hint">No incluyas datos sensibles en esta demostración.</span>
             </div>
-            <button class="button button--full" type="submit">Probar solicitud <span aria-hidden="true">→</span></button>
+            <button class="button button--full button--accent" type="submit">Probar solicitud <span aria-hidden="true">→</span></button>
             <p class="form-status" data-form-status role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -332,7 +352,7 @@
           </span>
           <span class="brand-name">Altifirme</span>
         </a>
-        <p>Reformas, mantenimiento y trabajos verticales.</p>
+        <div class="footer__descriptor"><p>Reformas, mantenimiento y trabajos verticales.</p><span>Sede candidata en Bilbao · pendiente de formalización</span></div>
         <a class="footer-back" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
       </div>
       <div class="container footer__bottom">

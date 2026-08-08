@@ -9,9 +9,14 @@ const htmlPath = path.join(projectRoot, 'index.html');
 const html = await readFile(htmlPath, 'utf8');
 
 test('incluye la estructura esencial de la MVP', () => {
-  for (const sectionId of ['inicio', 'servicios', 'metodo', 'proyectos', 'cobertura', 'contacto']) {
+  for (const sectionId of ['inicio', 'servicios', 'metodo', 'proyectos', 'redes', 'contacto']) {
     assert.match(html, new RegExp(`id=["']${sectionId}["']`), `Falta la sección ${sectionId}`);
   }
+});
+
+test('elimina la antigua sección territorial', () => {
+  assert.doesNotMatch(html, /id=["']cobertura["']/);
+  assert.doesNotMatch(html, /País Vasco/i);
 });
 test('mantiene la vista previa fuera de los buscadores', () => {
   assert.match(html, /name="robots" content="noindex, nofollow"/);
@@ -30,6 +35,12 @@ test('no publica el teléfono ficticio conocido', () => {
 test('muestra la autoría y la reserva de derechos acordadas', () => {
   assert.match(html, /Yeison Arbey Carrillo Lemus/);
   assert.match(html, /Todos los derechos reservados/);
+});
+
+test('presenta redes y sede únicamente como elementos provisionales', () => {
+  assert.match(html, /Redes sociales en preparación/);
+  assert.match(html, /Alameda de Mazarredo 25, 1\.º/);
+  assert.match(html, /pendiente de contratación y formalización/i);
 });
 
 test('no carga recursos remotos ni rastreadores', () => {

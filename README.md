@@ -2,14 +2,17 @@
 
 MVP de la landing profesional de Jhon Adolfo Suárez, orientada a reformas, mantenimiento y trabajos verticales.
 
-La versión actual sirve para revisar contenido, estructura, diseño responsive y flujo de contacto antes de incorporar datos reales o contratar servicios.
+La versión actual sirve para revisar contenido, estructura, dirección visual, diseño responsive y flujo de contacto antes de incorporar datos reales o contratar servicios.
 
 ## Estado
 
 - Marca mostrada: `Altifirme`, todavía provisional.
-- Zona comunicada: País Vasco.
+- Alcance comercial previsto: todo el territorio español, sujeto a valoración de cada proyecto.
+- Dirección: sede central candidata en Bilbao; no es un domicilio operativo hasta formalizar su contratación.
+- Redes sociales: espacios preparados, todavía sin perfiles enlazados.
 - Formulario: demostración local; valida, pero no envía ni almacena datos.
 - Imágenes de proyectos: marcadores visuales hasta aprobar derechos y privacidad.
+- Imagen de cabecera: recurso ilustrativo generado para la MVP; no representa un proyecto ejecutado.
 - Rastreo: desactivado; la MVP declara `noindex` y no carga analítica ni recursos externos.
 
 El alcance, las fases y las decisiones se mantienen en **[PLAN_DEL_PROYECTO.md](PLAN_DEL_PROYECTO.md)**, que es la fuente central del proyecto.
@@ -55,6 +58,7 @@ LandingJhon/
 │   ├── own-work/              # Originales propios autorizados
 │   ├── stock/                 # Originales externos con licencia
 │   ├── derived/               # Versiones web optimizadas
+│   ├── illustrative/          # Recursos de apoyo, nunca prueba de proyectos
 │   └── licenses/              # Registro de procedencia y permisos
 ├── scripts/                   # Servidor local y construcción
 ├── tests/                     # Comprobaciones automáticas
