@@ -66,7 +66,7 @@ LandingJhon/
 
 ## Publicación
 
-GitHub Actions valida cada cambio. La rama de la MVP y `main` pueden desplegar `dist/` en GitHub Pages para facilitar la revisión.
+GitHub Actions valida cada cambio. Por seguridad, únicamente `main` puede desplegar `dist/` en GitHub Pages; las ramas se revisan mediante pull requests antes de publicarse.
 
 Antes de convertir la MVP en una web comercial deben completarse G0 y G4 del plan: datos reales, identidad del prestador, canal de contacto, permisos de imágenes y documentación legal.
 

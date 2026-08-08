@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - agent/mvp-landing
   workflow_dispatch:
 
 permissions:
