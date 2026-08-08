@@ -1,0 +1,17 @@
+{
+  "name": "landing-jhon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MVP estática de la landing profesional de Jhon Adolfo Suárez.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "check": "npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

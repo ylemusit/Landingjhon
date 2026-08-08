@@ -1,9 +1,12 @@
 # Plan central del proyecto — Landing Jhon
 
-**Versión:** 0.1  
-**Fecha de inicio:** 8 de agosto de 2026  
-**Estado:** definición y validación  
-**Responsables de decisión:** Jhon Adolfo Suárez y Yeison  
+**Versión:** 0.2
+
+**Fecha de inicio:** 8 de agosto de 2026
+
+**Estado:** MVP de revisión implementada; validación comercial y documental pendiente
+
+**Responsables de decisión:** Jhon Adolfo Suárez y Yeison
 
 ## 1. Propósito
 
@@ -22,6 +25,20 @@ Una página web adaptable a móvil y escritorio que permita a una persona:
 5. solicitar una valoración a través de un canal real y autorizado.
 
 El resultado debe ser claro, rápido, accesible, fácil de mantener y preparado para incorporar nuevas secciones o integraciones solo cuando aporten valor.
+
+### MVP disponible para revisión
+
+La primera MVP implementa la estructura completa en HTML, CSS y JavaScript sin dependencias externas. Incluye:
+
+- diseño responsive para móvil y escritorio;
+- navegación accesible y menú móvil;
+- presentación, servicios, proceso, proyectos, públicos, cobertura y contacto;
+- marcadores visuales explícitos mientras las imágenes reales siguen pendientes de derechos;
+- formulario de demostración que valida la experiencia sin transmitir ni almacenar datos;
+- construcción estática, servidor local, pruebas automáticas y despliegue preparado para GitHub Pages;
+- modo `noindex`, sin analítica, cookies de seguimiento ni recursos de terceros.
+
+Esta MVP permite decidir qué conservar o cambiar. No acredita todavía que la marca, los servicios, las imágenes o los datos legales hayan superado las puertas de validación.
 
 ## 3. Base ya definida
 
@@ -181,8 +198,14 @@ La primera versión se considerará terminada cuando:
 - `assets/stock/`: originales externos con licencia comprobada.
 - `assets/derived/`: versiones optimizadas para la web.
 - `assets/licenses/image-register.csv`: trazabilidad y aprobación de cada imagen.
+- `index.html`: contenido y estructura semántica de la MVP.
+- `css/styles.css`: identidad visual provisional y diseño responsive.
+- `js/app.js`: navegación móvil y comportamiento seguro del formulario de demostración.
+- `scripts/`: servidor local y generación de la versión publicable.
+- `tests/`: comprobaciones automáticas de estructura, recursos y seguridad de la demostración.
+- `.github/workflows/`: validación continua y despliegue en GitHub Pages.
 
-Cuando comience el desarrollo, el código, las pruebas y la configuración se añadirán en carpetas propias de la tecnología elegida. No se crea aún una estructura técnica ficticia.
+La tecnología actual es una base estática sin dependencias. Solo se sustituirá si un requisito confirmado demuestra que hace falta mayor complejidad.
 
 ## 10. Reglas de trabajo
 
@@ -195,6 +218,6 @@ Cuando comience el desarrollo, el código, las pruebas y la configuración se a�
 
 ## 11. Próximo hito
 
-Completar G0 mediante una sesión breve con Jhon para resolver las decisiones operativas y documentales de la sección 7. Con esa información se podrá cerrar el contenido de la landing y decidir si `Altifirme` merece avanzar como marca.
+Revisar la MVP con Jhon y completar G0 mediante una sesión breve para resolver las decisiones operativas y documentales de la sección 7. Con esa información se podrá cerrar el contenido y decidir si `Altifirme` merece avanzar como marca.
 
-Hasta entonces, el trabajo debe centrarse en validar información y recopilar evidencia, no en contratar servicios ni desarrollar una solución definitiva.
+Hasta entonces, la MVP seguirá siendo una herramienta de validación. No se activarán recepción de datos, analítica, contratación de servicios ni publicación comercial definitiva.
