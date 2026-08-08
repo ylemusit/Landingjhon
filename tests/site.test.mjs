@@ -9,14 +9,18 @@ const htmlPath = path.join(projectRoot, 'index.html');
 const html = await readFile(htmlPath, 'utf8');
 
 test('incluye la estructura esencial de la MVP', () => {
-  for (const sectionId of ['inicio', 'servicios', 'metodo', 'proyectos', 'redes', 'contacto']) {
+  for (const sectionId of ['inicio', 'servicios', 'empresa', 'contacto']) {
     assert.match(html, new RegExp(`id=["']${sectionId}["']`), `Falta la sección ${sectionId}`);
   }
 });
 
-test('elimina la antigua sección territorial', () => {
+test('mantiene una arquitectura minimalista de cuatro bloques', () => {
+  assert.equal([...html.matchAll(/<section\b/g)].length, 4);
   assert.doesNotMatch(html, /id=["']cobertura["']/);
+  assert.doesNotMatch(html, /id=["']proyectos["']/);
+  assert.doesNotMatch(html, /id=["']redes["']/);
   assert.doesNotMatch(html, /País Vasco/i);
+  assert.doesNotMatch(html, /360°/);
 });
 test('mantiene la vista previa fuera de los buscadores', () => {
   assert.match(html, /name="robots" content="noindex, nofollow"/);
@@ -38,7 +42,8 @@ test('muestra la autoría y la reserva de derechos acordadas', () => {
 });
 
 test('presenta redes y sede únicamente como elementos provisionales', () => {
-  assert.match(html, /Redes sociales en preparación/);
+  assert.match(html, /aria-label="Redes sociales en preparación"/);
+  assert.match(html, /Redes próximamente/);
   assert.match(html, /Alameda de Mazarredo 25, 1\.º/);
   assert.match(html, /pendiente de contratación y formalización/i);
 });

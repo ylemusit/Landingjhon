@@ -2,7 +2,7 @@
 
 MVP de la landing profesional de Jhon Adolfo Suárez, orientada a reformas, mantenimiento y trabajos verticales.
 
-La versión actual sirve para revisar contenido, estructura, dirección visual, diseño responsive y flujo de contacto antes de incorporar datos reales o contratar servicios.
+La versión actual sirve para revisar una arquitectura minimalista de cuatro bloques, el diseño responsive y el flujo de contacto antes de incorporar datos reales o contratar servicios.
 
 ## Estado
 
@@ -11,7 +11,7 @@ La versión actual sirve para revisar contenido, estructura, dirección visual, 
 - Dirección: sede central candidata en Bilbao; no es un domicilio operativo hasta formalizar su contratación.
 - Redes sociales: espacios preparados, todavía sin perfiles enlazados.
 - Formulario: demostración local; valida, pero no envía ni almacena datos.
-- Imágenes de proyectos: marcadores visuales hasta aprobar derechos y privacidad.
+- Proyectos: la galería permanece fuera de la web hasta disponer de imágenes y casos reales aprobados.
 - Imagen de cabecera: recurso ilustrativo generado para la MVP; no representa un proyecto ejecutado.
 - Rastreo: desactivado; la MVP declara `noindex` y no carga analítica ni recursos externos.
 
