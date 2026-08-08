@@ -1,10 +1,10 @@
 # Plan central del proyecto — Landing Jhon
 
-**Versión:** 0.2
+**Versión:** 0.3
 
 **Fecha de inicio:** 8 de agosto de 2026
 
-**Estado:** MVP de revisión implementada; validación comercial y documental pendiente
+**Estado:** MVP visual v2 implementada; validación comercial y documental pendiente
 
 **Responsables de decisión:** Jhon Adolfo Suárez y Yeison
 
@@ -19,7 +19,7 @@ La web debe poder empezar con un alcance pequeño y crecer sin rehacer su base. 
 Una página web adaptable a móvil y escritorio que permita a una persona:
 
 1. entender qué servicios se ofrecen;
-2. saber para qué tipos de cliente y zona se trabaja;
+2. saber para qué tipos de cliente se trabaja y cómo se valora cada desplazamiento;
 3. comprobar experiencia mediante información e imágenes autorizadas;
 4. conocer el proceso de trabajo;
 5. solicitar una valoración a través de un canal real y autorizado.
@@ -32,7 +32,8 @@ La primera MVP implementa la estructura completa en HTML, CSS y JavaScript sin d
 
 - diseño responsive para móvil y escritorio;
 - navegación accesible y menú móvil;
-- presentación, servicios, proceso, proyectos, públicos, cobertura y contacto;
+- presentación, servicios, proceso, proyectos, públicos, redes sociales y contacto;
+- una dirección candidata en Bilbao identificada como pendiente de contratación y formalización;
 - marcadores visuales explícitos mientras las imágenes reales siguen pendientes de derechos;
 - formulario de demostración que valida la experiencia sin transmitir ni almacenar datos;
 - construcción estática, servidor local, pruebas automáticas y despliegue preparado para GitHub Pages;
@@ -47,7 +48,7 @@ Estos puntos forman la base de trabajo, pero deben confirmarse con Jhon antes de
 - Actividad: reformas, mantenimiento y trabajos verticales.
 - Experiencia comunicable: más de 15 años en industria, madera y construcción.
 - Públicos iniciales: particulares, comunidades de propietarios, administradores de fincas y empresas.
-- Cobertura inicial: País Vasco; otros desplazamientos se estudian individualmente.
+- Alcance comercial previsto: todo el territorio español, con viabilidad, desplazamiento y plazo valorados para cada proyecto.
 - Forma de trabajo: intervención individual o con colaboradores según el alcance y las habilitaciones necesarias.
 - Marca provisional: `Altifirme`.
 - Principios de comunicación: claridad, evidencia real, seguridad y ausencia de promesas no demostrables.
@@ -64,7 +65,8 @@ La información detallada se encuentra en [docs/01-identidad-marca.md](docs/01-i
 - Proceso de consulta, valoración, propuesta, ejecución y entrega.
 - Galería de trabajos reales con imágenes aprobadas y trazables.
 - Mensajes diferenciados para particulares, comunidades y empresas.
-- Zona inicial de servicio.
+- Alcance nacional integrado en la propuesta comercial, sin una sección territorial independiente.
+- Espacios preparados para futuros perfiles en redes sociales.
 - Contacto mediante los canales que se aprueben.
 - Aviso legal, privacidad y configuración de cookies cuando correspondan.
 - Diseño adaptable, accesibilidad básica, buen rendimiento y SEO técnico esencial.
@@ -77,7 +79,7 @@ La arquitectura y el primer borrador de textos están en [docs/02-estructura-lan
 - Área privada de clientes.
 - Aplicación móvil.
 - CRM o automatizaciones comerciales complejas.
-- Cobertura nacional anunciada como servicio ya implantado.
+- Disponibilidad inmediata, precios o plazos homogéneos prometidos para todo el territorio español.
 - Chatbot, generador automático de presupuestos o funciones de IA.
 - Subida de fotografías por clientes sin almacenamiento seguro y controles de privacidad.
 - Analítica, mapas, vídeos o recursos de terceros antes de decidir su impacto en privacidad y consentimiento.
@@ -89,7 +91,7 @@ Estas capacidades podrán evaluarse después de observar demanda y uso reales.
 ### Fase 0 — Validación de la información
 
 - Confirmar servicios ejecutados directamente y servicios realizados con colaboradores.
-- Confirmar zona, tipos de cliente y capacidad operativa.
+- Confirmar tipos de cliente y capacidad operativa para atender desplazamientos por España.
 - Recopilar datos fiscales, canales de contacto y documentación profesional necesaria.
 - Revisar el nombre `Altifirme`, antecedentes de marca y dominio disponible.
 - Seleccionar trabajos reales y obtener permisos de uso.
@@ -150,7 +152,7 @@ No se avanza a la fase siguiente hasta cumplir su puerta:
 
 | Puerta | Condición mínima |
 |---|---|
-| G0 — Información válida | Servicios, cobertura, identidad del prestador, contacto y documentación esencial confirmados. |
+| G0 — Información válida | Servicios, capacidad operativa nacional, identidad del prestador, contacto y documentación esencial confirmados. |
 | G1 — Contenido aprobado | Nombre o alternativa, textos, identidad visual e imágenes autorizadas. |
 | G2 — Diseño aprobado | Versión móvil y de escritorio revisada; flujo de contacto aceptado. |
 | G3 — Desarrollo verificado | Funciones, accesibilidad, rendimiento y navegadores principales comprobados. |
@@ -163,11 +165,13 @@ Las siguientes decisiones pueden cambiar materialmente el resultado y no deben s
 - Confirmación de `Altifirme` o elección de otro nombre.
 - Resultado de la comprobación en OEPM/EUIPO y disponibilidad de dominio.
 - Identidad fiscal y datos que deben figurar en la web.
+- Contratación o descarte de la sede candidata en Alameda de Mazarredo 25, Bilbao; hasta entonces no es un domicilio de Altifirme.
 - Teléfono, correo y canal principal de contacto.
+- Creación y aprobación de los perfiles oficiales en redes sociales.
 - Lista exacta de servicios propios y servicios que exigen colaboradores habilitados.
 - Documentación vigente: seguros, formación, acreditaciones y habilitaciones.
 - Imágenes autorizadas y trabajos que pueden mostrarse públicamente.
-- Preferencias visuales y referencias de estilo.
+- Validación de la dirección visual v2 inspirada de forma general en webs de reformas, sin copiar activos ni composición de terceros.
 - Presupuesto disponible para dominio, alojamiento, correo y mantenimiento.
 - Responsable de atender solicitudes y plazo operativo de respuesta.
 
@@ -197,6 +201,7 @@ La primera versión se considerará terminada cuando:
 - `assets/own-work/`: originales propios autorizados.
 - `assets/stock/`: originales externos con licencia comprobada.
 - `assets/derived/`: versiones optimizadas para la web.
+- `assets/illustrative/`: recursos visuales de apoyo claramente identificados, nunca evidencia de trabajos realizados.
 - `assets/licenses/image-register.csv`: trazabilidad y aprobación de cada imagen.
 - `index.html`: contenido y estructura semántica de la MVP.
 - `css/styles.css`: identidad visual provisional y diseño responsive.

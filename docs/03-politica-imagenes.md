@@ -22,10 +22,11 @@ No se tomarán imágenes de una búsqueda de Google, páginas de competidores, r
 - No mostrar prácticas inseguras ni equipos de protección incompletos.
 - No representar con stock un trabajo como si hubiera sido ejecutado por Altifirme.
 - No utilizar imágenes generadas por IA como prueba de proyectos realizados.
+- Las imágenes generadas pueden utilizarse como apoyo editorial o ambiental solo si están registradas, se identifican como ilustrativas y quedan fuera de la galería de proyectos reales.
 
 ## Flujo obligatorio
 
-1. Guardar el original sin editar en `assets/own-work/` o `assets/stock/`.
+1. Guardar el original sin editar en `assets/own-work/`, `assets/stock/` o, si es un recurso de apoyo generado, en `assets/illustrative/`.
 2. Registrar fuente, autor, URL, licencia y fecha de descarga.
 3. Guardar captura o documento de la licencia en `assets/licenses/` cuando sea posible.
 4. Revisar rostros, logotipos, propiedad privada y datos identificativos.

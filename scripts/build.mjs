@@ -4,7 +4,14 @@ import { fileURLToPath } from 'node:url';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputDirectory = path.join(projectRoot, 'dist');
-const entries = ['index.html', 'robots.txt', 'css', 'js', path.join('assets', 'brand')];
+const entries = [
+  'index.html',
+  'robots.txt',
+  'css',
+  'js',
+  path.join('assets', 'brand'),
+  path.join('assets', 'illustrative')
+];
 
 await rm(outputDirectory, { recursive: true, force: true });
 await mkdir(outputDirectory, { recursive: true });

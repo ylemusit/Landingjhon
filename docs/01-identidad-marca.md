@@ -26,10 +26,10 @@ La documentación sobre cursos, acreditaciones, seguros y habilitaciones debe ve
 
 ## Cobertura
 
-- Fase inicial: País Vasco.
-- Expansión: condicionada a capacidad operativa, colaboradores y validación de demanda en otras comunidades.
-- No anunciar todavía “servicio en toda España”.
-- Fórmula válida: “Con base en el País Vasco y vocación de crecimiento nacional”.
+- Alcance comercial: todo el territorio español.
+- Cada solicitud se valora según ubicación, desplazamiento, alcance, equipo necesario y capacidad operativa.
+- No se mostrará una sección territorial independiente: el alcance nacional se integra en la propuesta de servicio.
+- El posicionamiento nacional no implica disponibilidad inmediata ni condiciones idénticas en todas las localidades.
 
 ## Públicos
 
@@ -72,7 +72,7 @@ Atención directa, experiencia multidisciplinar y una solución dimensionada par
 - Plazos universales como “baño en una semana”.
 - Descuentos permanentes o ficticios.
 - Garantía total o resultados sin sorpresas.
-- Cobertura efectiva en toda España.
+- Disponibilidad inmediata, mismos precios o plazos universales en toda España.
 - Certificaciones o seguros concretos sin comprobar documentos y vigencia.
 - Testimonios inventados.
 - Fotografías de stock presentadas como trabajos propios.

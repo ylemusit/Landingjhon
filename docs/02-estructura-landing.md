@@ -73,13 +73,18 @@ Incluir llamadas específicas para:
 - Comercios y oficinas.
 - Industria, constructoras y colaboradores profesionales.
 
-## 7. Cobertura
+## 7. Redes sociales
 
-**Servicio inicial en el País Vasco.**
+Preparar espacios visibles para Instagram, Facebook, LinkedIn y YouTube. Mientras no existan perfiles oficiales, deben mostrarse como próximos y sin enlaces ficticios.
 
-Los proyectos fuera de la zona habitual se estudian individualmente según desplazamiento, alcance y capacidad operativa. Esto permite comunicar vocación nacional sin prometer una cobertura aún no implantada.
+El alcance comercial para España se comunica dentro de la propuesta general y de la valoración, sin crear una sección territorial específica ni prometer disponibilidad inmediata en cualquier localidad.
 
 ## 8. Contacto
+
+Mostrar como sede central candidata:
+
+- Alameda de Mazarredo 25, 1.º, 48009 Bilbao (Bizkaia).
+- Indicar expresamente que está pendiente de contratación y formalización y que todavía no es un domicilio operativo de Altifirme.
 
 Campos mínimos:
 
