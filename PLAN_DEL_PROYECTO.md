@@ -212,6 +212,7 @@ La tecnología actual es una base estática sin dependencias. Solo se sustituir�
 - Actualizar este plan cuando cambien alcance, estado o decisiones importantes.
 - Separar siempre hechos confirmados, contenido provisional y tareas pendientes.
 - No introducir datos personales, credenciales o documentos sensibles en el repositorio.
+- Identificar el proyecto a nombre de Yeison Arbey Carrillo Lemus e incluir la fórmula «Todos los derechos reservados».
 - No contratar, publicar ni habilitar servicios externos sin aprobación expresa.
 - Conservar originales y licencias; las versiones web nunca sustituyen a los originales.
 - Hacer cambios pequeños, verificables y fáciles de revertir.

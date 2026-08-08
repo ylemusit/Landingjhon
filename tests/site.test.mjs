@@ -27,6 +27,11 @@ test('no publica el teléfono ficticio conocido', () => {
   assert.doesNotMatch(html, /678[\s-]?901[\s-]?234/);
 });
 
+test('muestra la autoría y la reserva de derechos acordadas', () => {
+  assert.match(html, /Yeison Arbey Carrillo Lemus/);
+  assert.match(html, /Todos los derechos reservados/);
+});
+
 test('no carga recursos remotos ni rastreadores', () => {
   assert.doesNotMatch(html, /(?:src|href)=["']https?:\/\//i);
   assert.doesNotMatch(html, /google-analytics|googletagmanager|facebook\.net/i);
