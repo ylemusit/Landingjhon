@@ -1,10 +1,10 @@
 # Plan central del proyecto — Landing Jhon
 
-**Versión:** 0.3
+**Versión:** 0.4
 
 **Fecha de inicio:** 8 de agosto de 2026
 
-**Estado:** MVP visual v2 implementada; validación comercial y documental pendiente
+**Estado:** MVP minimalista v3 implementada; validación comercial y documental pendiente
 
 **Responsables de decisión:** Jhon Adolfo Suárez y Yeison
 
@@ -28,13 +28,14 @@ El resultado debe ser claro, rápido, accesible, fácil de mantener y preparado 
 
 ### MVP disponible para revisión
 
-La primera MVP implementa la estructura completa en HTML, CSS y JavaScript sin dependencias externas. Incluye:
+La MVP implementa una estructura reducida en HTML, CSS y JavaScript sin dependencias externas. Incluye:
 
 - diseño responsive para móvil y escritorio;
 - navegación accesible y menú móvil;
-- presentación, servicios, proceso, proyectos, públicos, redes sociales y contacto;
+- cuatro bloques principales: cabecera, servicios, empresa/proceso y contacto;
+- redes sociales integradas discretamente en el pie;
 - una dirección candidata en Bilbao identificada como pendiente de contratación y formalización;
-- marcadores visuales explícitos mientras las imágenes reales siguen pendientes de derechos;
+- la galería de proyectos permanece oculta hasta disponer de casos e imágenes acreditados;
 - formulario de demostración que valida la experiencia sin transmitir ni almacenar datos;
 - construcción estática, servidor local, pruebas automáticas y despliegue preparado para GitHub Pages;
 - modo `noindex`, sin analítica, cookies de seguimiento ni recursos de terceros.
@@ -62,11 +63,10 @@ La información detallada se encuentra en [docs/01-identidad-marca.md](docs/01-i
 - Cabecera con propuesta de valor y llamada principal a la acción.
 - Presentación breve de Jhon y su experiencia.
 - Servicios agrupados y explicados en lenguaje comprensible.
-- Proceso de consulta, valoración, propuesta, ejecución y entrega.
-- Galería de trabajos reales con imágenes aprobadas y trazables.
-- Mensajes diferenciados para particulares, comunidades y empresas.
+- Proceso resumido de consulta, valoración y propuesta.
+- Presentación de los públicos dentro de la propuesta principal, sin una sección independiente.
 - Alcance nacional integrado en la propuesta comercial, sin una sección territorial independiente.
-- Espacios preparados para futuros perfiles en redes sociales.
+- Espacios discretos en el pie para futuros perfiles en redes sociales.
 - Contacto mediante los canales que se aprueben.
 - Aviso legal, privacidad y configuración de cookies cuando correspondan.
 - Diseño adaptable, accesibilidad básica, buen rendimiento y SEO técnico esencial.
@@ -83,6 +83,7 @@ La arquitectura y el primer borrador de textos están en [docs/02-estructura-lan
 - Chatbot, generador automático de presupuestos o funciones de IA.
 - Subida de fotografías por clientes sin almacenamiento seguro y controles de privacidad.
 - Analítica, mapas, vídeos o recursos de terceros antes de decidir su impacto en privacidad y consentimiento.
+- Galería de proyectos mientras no existan trabajos documentados e imágenes autorizadas suficientes.
 
 Estas capacidades podrán evaluarse después de observar demanda y uso reales.
 
@@ -171,7 +172,7 @@ Las siguientes decisiones pueden cambiar materialmente el resultado y no deben s
 - Lista exacta de servicios propios y servicios que exigen colaboradores habilitados.
 - Documentación vigente: seguros, formación, acreditaciones y habilitaciones.
 - Imágenes autorizadas y trabajos que pueden mostrarse públicamente.
-- Validación de la dirección visual v2 inspirada de forma general en webs de reformas, sin copiar activos ni composición de terceros.
+- Validación de la dirección visual minimalista v3, inspirada de forma general en webs de reformas sin copiar activos ni composición de terceros.
 - Presupuesto disponible para dominio, alojamiento, correo y mantenimiento.
 - Responsable de atender solicitudes y plazo operativo de respuesta.
 
